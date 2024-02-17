@@ -1,0 +1,47 @@
+body {
+    padding: 0 30px;
+}
+
+.select-date {
+    min-height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-date .select-date-input {
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.select-date .submit-date {
+    padding: 15px;
+}
+
+.select-date .select-date-input, .select-date .submit-date {
+    width: 180px;
+}
+
+.nasa-error-message {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nasa_title {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nasa_image {
+    width: 300px;
+    height: 300px;
+    margin: 20px 0;
+}
+
+.nasa_description {
+    font-size: 20px;
+    line-height: 22px;
+}

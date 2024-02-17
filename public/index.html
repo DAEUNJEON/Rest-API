@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rest API</title>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section class="select-date">
+        <input type="date" id="selectDate" class="select-date-input"/>
+        <input type="submit" onclick="selectDateFunc()" value="Submit" class="submit-date"/>
+    </section>
+
+    <section class="nasa-error">
+        <h1 class="nasa-error-message"></h1>
+    </section>
+
+    <section class="nasa-result">
+        <h1 class="nasa_title"></h1>
+        <img class="nasa_image" alt="nasa_image"/>
+        <div class="nasa_description"></div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

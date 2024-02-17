@@ -1,0 +1,14 @@
+{
+  "name": "daeun_jeon",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "author": "Daeun Jeon",
+  "license": "private",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
