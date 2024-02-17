@@ -24,5 +24,6 @@ async function selectDateFunc() {
     document.querySelector('.nasa_title').textContent = result.title;
     const imageTag = document.querySelector('.nasa_image');
     imageTag.src = result.url;
+    document.querySelector('.nasa_image').style.display = 'block';
     document.querySelector('.nasa_description').textContent = result.explanation;
 }   
